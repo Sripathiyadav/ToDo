@@ -1,37 +1,44 @@
+# ✅ To-Do App
 
-# Todo
+A Flutter-based mobile application that helps users manage their daily tasks effectively.  
+It demonstrates core Flutter concepts like state management, local storage, and responsive UI.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-For help getting started with Flutter development, view the [online documentation](https://docs.flutter.dev/), which offers tutorials, samples, guidance on mobile development, and a full API reference.
-
-## Flutter Version
-
-This project uses Flutter version 3.20.
+<p align="center">
+  <img src="assets/todommockup.png" alt="To-Do App Mockup" width="250"/>
+</p>
 
 ## Project Description
 
+- **Add New To-Do**: Quickly add new tasks.
+- **Delete To-Do**: Remove tasks when completed or not needed.
+- **Search To-Do**: Find tasks instantly with the built-in search.
+- **Edit To-Do**: Update tasks with new information.
+- **Offline Functionality**: Works without internet, all data stored locally.
 - **Static App**: This is a static app that doesn't require any user authentication.
-- **Offline Functionality**: The app doesn't rely on cloud data and works even without an internet connection.
 - **Local Data Storage**: All data present in the app will be stored locally on the device.
 
 ## Features
 
-- Offline functionality.
-- Local data storage.
-- No user authentication required.
+- ➕ Add new tasks  
+- 🗑 Delete tasks  
+- 🔍 Search tasks  
+- ✏️ Edit tasks  
+- 📱 Responsive design  
+- 💾 Local data storage  
+- 🌐 Works offline  
+
+## Flutter Version
+
+This project uses **Flutter version 2.1.0**.
 
 ## How to Run
 
 1. Make sure you have Flutter installed. You can download it from [Flutter's official website](https://flutter.dev/docs/get-started/install).
 2. Clone this repository.
 3. Navigate to the project directory.
-4. Run `flutter pub get` to install the dependencies.
-5. Run `flutter run` to start the application on your device or emulator.
+4. Run `flutter pub get` to install all dependencies (requires internet).
+5. Verify that dependencies are installed successfully.
+6. Run `flutter run` to launch the app on your device or emulator.
 
 ## Documentation
 
